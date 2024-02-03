@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Coompatible" content="IE=edge">
+        <title>My Portfolio</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">        
+    </head>
+<body>
+
+        <header class="header">
+            <a href="#" class="logo">Port<span>folio</span></a>
+            <nav class="navbar">
+                    <a href="#home" class="active">HOME</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#skill set">SKILL SET</a>
+                    <a href="#certification">CERTIFICATIONS</a>
+                    <a href="#contact">CONTACT</a>
+            </nav>
+        </header>
+        <!--home section design-->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hey,It's Me</h3>
+                <h1><span>Sanjana </span>Singisetti</h1>
+                <div class="social-media">
+                    <a href="https://www.github.com/sanjana-0929"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.instagram.com/sanjana_singisetti"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.linkedin.com/in/sanjana-singisetti-99ab2b281"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://wa.me/+918639566125"><i class='bx bxl-whatsapp'></i></a>
+                </div>
+                <a href="./resume.pdf" class="btn">Download CV</a>
+            </div>
+            <div class="home-img">
+                <img src="me1.jpeg" alt="">
+            </div>
+
+        </section>
+        <section class="about" id="about">
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <div class="about-container">
+                    <div class="about-box">
+                        <h3>Education:-</h3><br>
+                        <h4><span>2019</span></h4>
+                            <p>Board Of Secondary Education</p>
+                            <h4><span>2021</span></h4>
+                            <p>Board Of Intermediate Education</p>
+                            <h4><span>2025</span></h4>
+                            <p>Aditya Institute Of Technology And Management</p>
+                    </div>
+                    <div class="about-box">
+                        <p></br></br>I'm an undergraduate student and I'm passionate about 
+                            learning HTML and CSS. In my free time, I like working on
+                            projects and experimenting with new styles in CSS. 
+                            Ever since I was a kid, I've been fascinated by how websites work
+                            and how beautiful they are,and that's what sparked my curiosity to learn 
+                            HTML and CSS.</br></br></p>
+                        </div>
+                    </div>     
+            </div>
+        </section>
+        <section class="services" id="skill set">
+            <h2 class="heading">My <span>Skill Set</span></h2>
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bxl-html5'></i>
+                    <h3>HTML</h3><br>
+                    <span class="bar"><span class="html"></span>></span>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxl-css3'></i>
+                    <h3>CSS</h3><br>
+                    <span class="bar"><span class="css"></span>></span>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxl-javascript'></i>
+                    <h3>Javascript</h3><br>
+                    <span class="bar"><span class="javascript"></span>></span>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxl-java'></i>
+                    <h3>Java</h3><br>
+                    <span class="bar"><span class="java"></span>></span>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxl-python'></i>
+                    <h3>Python</h3><br>
+                    <span class="bar"><span class="python"></span>></span>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxl-c-plus-plus'></i>
+                    <h3>C++</h3><br>
+                    <span class="bar"><span class="c"></span>></span>
+                </div>
+                
+            </div>
+        </section>
+       <section class="certification" id="certification">
+            <h2 class="heading">My <span>Certifications</span></h2>
+            <div class="certification-container">
+                <div class="certification-box">
+                    <h3>Oracle<br> OCI Certification</h3>
+                    <h2>Issued By Oracle University</h2>
+                </div>
+            </div>
+        
+            <div class="certification-container">
+                <div class="certification-box">
+                    <h3>Django<br>Certification</h3>
+                    <h2>Issued By APSSDC</h2>
+                </div>
+            </div>
+            <div class="certification-container">
+                <div class="certification-box">
+                    <h3>Advanced DSA Certification</h3>
+                    <h2>Issued By Geeks For Geeks</h2>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>me!</span></h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="your message"></textarea>
+                <script>
+                    function sendreq()
+                    {
+                        alert("Message Sent Successfully");
+                    }
+
+                </script>
+                <div class="btn" onclick="sendreq()">
+                    Send Message
+                </div>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="js/script.js"></script>
+</body> 
+</html>
